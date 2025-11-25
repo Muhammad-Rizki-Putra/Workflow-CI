@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'Workflow-CI/**' 
+      - 'MLProject/**' 
   workflow_dispatch:
 jobs:
   build-and-push:
@@ -23,6 +23,6 @@ jobs:
     - name: Build and Push Docker Image
       uses: docker/build-push-action@v4
       with:
-        context: ./Workflow-CI/MLProject
+        context: ./MLProject
         push: true
         tags: rizzzki/telco-churn-model:latest
