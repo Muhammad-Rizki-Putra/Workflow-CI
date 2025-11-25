@@ -6,3 +6,4 @@ docker_env:
 entry_points:
   main:
     command: "python modelling.py"
+
