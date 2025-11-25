@@ -1,0 +1,8 @@
+name: Telco Customer Churn Project
+
+docker_env:
+  image: muhammad-rizki-putra/telco-churn-model:latest
+
+entry_points:
+  main:
+    command: "python modelling.py"
