@@ -6,8 +6,8 @@ import joblib
 import os
 
 def train():
-    if os.path.exists("telcoChurn_preprocess.csv"):
-        df = pd.read_csv("telcoChurn_preprocess.csv")
+    if os.path.exists("telcoChurn_preprocessing.csv"):
+        df = pd.read_csv("telcoChurn_preprocessing.csv")
     else:
         print("Dataset tidak ditemukan!")
         return

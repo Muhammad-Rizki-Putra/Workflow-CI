@@ -1,7 +1,6 @@
 name: Telco Customer Churn Project
 
-docker_env:
-  image: muhammad-rizki-putra/telco-churn-model:latest
+python_env: python_env.yaml
 
 entry_points:
   main:
